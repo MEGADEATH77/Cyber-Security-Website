@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBER SECURITY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="solutions.html">SOLUTIONS</a></li>   
+                    <!-- <li><a href="blog.html">BLOG</a></li>  
+                    <li><a href="">CONTACT US</a></li> -->
+                    <li><a href="">ABOUT</a></li>   
+                   
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>ABOUT US</h1>
+
+    </section>
+    <!-- About Us Content -->
+    <section class="about-us">
+            <div class="about">
+                <h1>Best in Cyber Security</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cumque soluta reiciendis asperiores aspernatur assumenda rerum laboriosam similique vero,<br> esse ad quidem rem. Animi inventore error eum incidunt quae sit!</p>
+            </div>
+            <div class="about">
+                <img src="images/b.jpg">
+            </div>
+            <div class="about">
+                <a href="" class="hero-btn">Know More</a>
+            </div>
+
+    </section>
+     <!-- Footer -->
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Hic necessitatibus laudantium pariatur, voluptatibus expedita atque repellat totam vel, nemo corporis omnis,<br> reiciendis explicabo exercitationem quo iure neque animi a praesentium?</p>
+        <div class="info">
+        email : abc@gmail.com<br>
+        phone : 9876543210
+        </div>
+    </section>
+    
+
+    
+
+    <!-- Javascript to Toogle Menu -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
